@@ -15,7 +15,7 @@ if __name__ == "__main__":
         available_letters = rack[:]
 
         valid = True
-        for letter in word.lower():
+        for letter in word:
             if letter not in available_letters:
                 valid = False
                 break
